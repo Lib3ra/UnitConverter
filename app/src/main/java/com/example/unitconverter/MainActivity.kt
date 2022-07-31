@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun FtoC(d: Double): Double {
-        return ((d -32) * (5/9)).round(2)
+        return ((d - 32) * 5/9).round(2)
     }
 
     fun LBStoKG(d: Double): Double {
@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
                     if (autocompleteTV.text.toString() == "Temp(C -> F)"){
                         outt?.text = nummin.text.toString().toDoubleOrNull()
                             ?.let { CtoF(it).toString() }
-                    }else if (autocompleteTV.text.toString() == "Weight(F -> C)") {
+                    }else if (autocompleteTV.text.toString() == "Temp(F -> C)") {
                         outt?.text = nummin.text.toString().toDoubleOrNull()
                             ?.let { FtoC(it).toString() }
                     }else if (autocompleteTV.text.toString() == "Weight(kg -> lbs)"){
