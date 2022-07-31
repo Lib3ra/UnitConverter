@@ -11,6 +11,7 @@ import android.text.TextWatcher
 import kotlin.math.round
 
 class MainActivity : AppCompatActivity() {
+    //TODO disable input 'unit' is selected
     fun Double.round(decimals: Int): Double {
         var multiplier = 1.0
         repeat(decimals) { multiplier *= 10 }
