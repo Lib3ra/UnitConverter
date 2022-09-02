@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
                     }else if(autocompleteTV.text.toString() == "Velocity(kmh -> mph)"){
                         outt?.text = nummin.text.toString().toDoubleOrNull()
                             ?.let { KMHtoMPH(it).toString() }
-                    }else if (autocompleteTV.text.toString() == "Weight(mph -> kmh)") {
+                    }else if (autocompleteTV.text.toString() == "Velocity(mph -> kmh)") {
                         outt?.text = nummin.text.toString().toDoubleOrNull()
                             ?.let { MPHtoKMH(it).toString() }
                     }

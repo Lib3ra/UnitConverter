@@ -6,6 +6,6 @@
         <item>Weight(kg -> lbs)</item>
         <item>Weight(lbs -> kg)</item>
         <item>Velocity(kmh -> mph)</item>
-        <item>Velocity(kmh -> mph)</item>
+        <item>Velocity(mph -> kmh)</item>
     </string-array>
 </resources>
