@@ -1,3 +1,3 @@
 # UnitConverter
 Android application to convert units (lbs to kg, etc.) on the go.
-![Dropdown to choose units](/units.png| width=250)
+<img src="/units.png" alt="Choose unit in dropdown" width="250">
